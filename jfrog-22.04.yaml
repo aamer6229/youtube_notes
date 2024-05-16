@@ -19,6 +19,8 @@ Let’s then update apt index,
 Now, you can install using jfrog service by entering the following command.
 
 ==> $ sudo apt install jfrog-artifactory-oss
+or use this 
+$ wget https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/[RELEASE]/jfrog-artifactory-oss-[RELEASE]-linux.tar.gz
 Start the service,
 
 ==> $ sudo systemctl start artifactory.service
